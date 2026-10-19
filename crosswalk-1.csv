@@ -1,0 +1,32 @@
+key,gddp_name,yuvanidhi_name,msme_name,yuvanidhi_match,msme_match
+bagalkot,Bagalkote,Bagalkote,Bagalkot,exact-normalised,manual alias
+bengaluru_urban,Bangalore Urban,Bengaluru urban,Bengaluru (Urban),manual alias,manual alias
+bengaluru_rural,Bangalore Rural,Bengaluru rural,Bengaluru (Rural),manual alias,manual alias
+belagavi,Belagavi,Belagavi,Belagavi,exact-normalised,exact-normalised
+ballari,Ballari,Ballari,Ballari,exact-normalised,exact-normalised
+bidar,Bidar,Bidar,Bidar,exact-normalised,exact-normalised
+vijayapura,Vijayapura,Vijayapura,Vijayapura,exact-normalised,exact-normalised
+chamarajanagar,Chamarajanagar,Chamaraja nagara,Chamarajnagar,manual alias,manual alias
+chikkaballapur,Chikkaballapur,Chikkaballapura,Chikballapur,manual alias,manual alias
+chikkamagaluru,Chikkamagaluru,Chikkamagaluru,Chikkamagaluru,exact-normalised,exact-normalised
+chitradurga,Chitradurga,Chitradurga,Chitradurga,exact-normalised,exact-normalised
+dakshina_kannada,Dakshina Kannada,Dakshina kannada,Dakshin Kannada,exact-normalised,manual alias
+davanagere,Davanagere,Davangere,Davangere,manual alias,manual alias
+dharwad,Dharwad,Dharwad,Dharwad,exact-normalised,exact-normalised
+gadag,Gadag,Gadag,Gadag,exact-normalised,exact-normalised
+kalaburagi,Kalaburagi,Kalaburagi,Kalaburagi,exact-normalised,exact-normalised
+hassan,Hassan,Hassan,Hassan,exact-normalised,exact-normalised
+haveri,Haveri,Haveri,Haveri,exact-normalised,exact-normalised
+kodagu,Kodagu,Kodagu,Kodagu,exact-normalised,exact-normalised
+kolar,Kolar,Kolar,Kolar,exact-normalised,exact-normalised
+koppal,Koppal,Koppal,Koppal,exact-normalised,exact-normalised
+mandya,Mandya,Mandya,Mandya,exact-normalised,exact-normalised
+mysuru,Mysuru,Mysuru,Mysuru,exact-normalised,exact-normalised
+raichur,Raichur,Raichur,Raichur,exact-normalised,exact-normalised
+ramanagara,Bangalore South,Ramanagara,Ramanagara,manual alias,manual alias
+shivamogga,Shivamogga,Shivamogga,Shivamogga,exact-normalised,exact-normalised
+tumakuru,Tumakuru,Tumakuru,Tumakuru,exact-normalised,exact-normalised
+udupi,Udupi,Udupi,Udupi,exact-normalised,exact-normalised
+uttara_kannada,Uttara Kannada,Uttara kannada,Uttar Kannad,exact-normalised,manual alias
+vijayanagar,Vijayanagar,Vijayanagar,Vijayanagar,exact-normalised,exact-normalised
+yadgir,Yadagiri,Yadgir,Yadgir,manual alias,manual alias
