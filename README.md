@@ -11,14 +11,16 @@ All public, non-personal. Source: Economic Survey of Karnataka 2025-26 district 
 - `ka-district-msme-employment-2025.csv`: MSME units and employment
 
 ## Files
-- `reproduce_dgpi.py`: runs the whole analysis
-- `crosswalk.csv`: district name match across the three tables, with match type
-- `indicators.csv`: income, implied population, DGPI and MSME job density per district
+- `reproduce_dgpi-1.py`: runs the whole analysis
+- `crosswalk-1.csv`: district name match across the three tables, with match type (saved output)
+- `indicators-1.csv`: income, implied population, DGPI and MSME job density per district (saved output)
 
 ## How to run
 Put all files in one folder, then:
 `pip install pandas numpy scipy`
-`python reproduce_dgpi.py`
+`python reproduce_dgpi-1.py`
+
+Running the script regenerates the two output tables as `crosswalk.csv` and `indicators.csv`. They should match the saved `crosswalk-1.csv` and `indicators-1.csv`.
 
 ## Expected output
 - 31 of 31 districts matched. Yuvanidhi: 24 exact, 7 alias. MSME: 21 exact, 10 alias.
@@ -27,12 +29,15 @@ Put all files in one folder, then:
 - Top five by DGPI: Raichur 4.03, Kalaburagi 3.55, Bagalkote 3.41, Davanagere 3.17, Yadgir 3.01.
 
 ## Method notes
-- District names are matched through a documented alias table (spelling variants and renamed units). Ramanagara = Bengaluru South assumes the same boundary.
+- District names are matched through a documented alias table (spelling variants and renamed units). Ramanagara = Bengaluru South assumes the same boundary and is not independently verified.
 - Implied population = NDDP / per capita income. This is an approximation, not a census count, and the total matches the state figure by construction.
 - Yuvanidhi covers only 2022-23 graduates who remain unemployed for 180 days, so DGPI also reflects graduate output and scheme take-up.
 
 ## Limitations
-One year, 31 districts: association, not causation. MSME employment is workplace-based and has outliers (for example Bengaluru Rural). The thresholds in the proposal are pilot rules to be calibrated.
+- One year, 31 districts: association, not causation.
+- Implied population is derived from per-capita income, so income and DGPI are mathematically coupled. The reported association is exploratory.
+- MSME employment is workplace-based and has outliers (for example Bengaluru Rural).
+- The thresholds in the proposal are pilot rules to be calibrated.
 
 ## AI disclosure
 Claude (Anthropic) was used as an assistant for the code and the analysis review. The participant selected the data, directed the work and takes responsibility for the content.
